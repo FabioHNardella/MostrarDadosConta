@@ -1,0 +1,11 @@
+Conta conta = new Conta();
+Titular titular = new Titular();
+titular.Nome = "Fictício Silva";
+titular.Cpf = "000.000.000-00";
+titular.Endereco = "Rua Lorem, XXX";
+conta.Titular = titular;
+conta.Agencia = "BancoImaginário";
+conta.NumeroConta = 05122005;
+conta.Saldo = 1000;
+conta.Limite = 5000;
+conta.mostrarInformacoes();
